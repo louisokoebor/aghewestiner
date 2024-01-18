@@ -1,0 +1,188 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: 38px;
+    font-weight: 900;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.container {
+    max-width: 1200px; /* Adjust the max-width based on your design */
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px; /* Adjust as needed */
+    padding-right: 15px; /* Adjust as needed */
+}
+.hero-section {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Adjust height as needed */
+    background: url(../images/heroImage.jpg) center/cover no-repeat; /* Replace 'your-image.jpg' with your image path */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white; /* Text color */
+}
+
+
+.text-container {
+    text-align: center;
+    max-width: 600px; /* Adjust max-width as needed */
+    margin-bottom: 20px;
+}
+
+.button-container {
+    display: flex;
+    gap: 10px; /* Adjust spacing between buttons */
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green - Change to your preferred color */
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.about-section{
+padding-top: 5%;
+padding-bottom: 5%;
+text-align: center;
+}
+
+h4{
+    margin-top: 2%;
+}
+.our-services-section{
+    background-color: #DCDCE2;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+#our-services-header {
+    text-align: center;
+}
+
+.image-column{
+    margin-top: 2%;
+}
+
+.testimonials{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.testimonial-carousel{
+    margin-top:2%;
+    text-align: center;
+}
+
+.profile-image {
+    width: 100px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+}
+
+.bottom-container{
+    background-color:#D8443A;
+    max-width: 1200px; /* Adjust the max-width based on your design */
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px; /* Adjust as needed */
+    padding-right: 15px;  
+}
+
+.contact-us{
+text-align: center;
+background-color: #f2f2f2;
+padding-top: 5%;
+padding-bottom: 5%;
+}
+
+.about-us-image{
+    padding: 10%;
+
+}
+.contact-us-image{
+padding: 10%;
+
+}
+.contact-form{
+    padding-top: 10%;
+    text-align: left;
+}
+
+#inputMessage{
+    height:180px;
+}
+
+img {
+    border-radius: 10px; /* Apply a 10px radius to all corners */
+  }
+
+.highlight {
+    border-bottom: 2px solid #D8443A; /* Highlight color */
+}
+
+.download-text{
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 1%;
+}
+
+.button{
+    background-color: #D8443A;
+}
+
+.aboutUsText{
+    padding: 10%;
+    text-align: left;
+}
+
+
+.footer{
+    overflow:hidden; 
+    background:#D8443A ;
+    color: white !important;
+    margin-bottom: 0 ;
+    padding-bottom:0  ;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px; /* Adjust as needed */
+    padding-right: 15px; /* Adjust as needed */
+}
+
+
+
+small{
+    font-size: calc(12px + (15 - 12) * ((100vw - 360px) / (1600 - 360))) !important; 
+}
+
+.bold-text{
+    color:white!important;
+}
+
+
+.mt-55{
+    margin-top: calc(50px + (60 - 50) * ((100vw - 360px) / (1600 - 360))) !important; 
+}
+
+
+h3{
+    font-size: calc(34px + (40 - 34) * ((100vw - 360px) / (1600 - 360))) !important; 
+}
+ 
+.social{
+    font-size: 21px !important; 
+}
+
+.rights{
+    font-size: calc(10px + (12 - 10) * ((100vw - 360px) / (1600 - 360))) !important; 
+}
+
